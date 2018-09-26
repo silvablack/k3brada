@@ -24,8 +24,11 @@
 			 * @hooked storefront_footer_widgets - 10
 			 * @hooked storefront_credit         - 20
 			 */
-			do_action( 'storefront_footer' ); ?>
-
+			//do_action( 'storefront_footer' ); ?>
+            <small>&copy; Copyright K3brada <?php echo date('Y') ?></small>
+            <p>
+                <small>Desenvolvidor por <a href="http://silvablack.me">Silva Black</a></small>
+            </p>
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
 
